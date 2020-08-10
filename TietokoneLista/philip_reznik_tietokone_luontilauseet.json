@@ -1,0 +1,47 @@
+{
+    "palvelin": "localhost",
+    "portti": 3306,
+    "paakayttaja": "root",
+    "paakayttajanSalasana": "",
+    "kayttaja": "meeri",
+    "kayttajanSalasana": "j7rXpXkK",
+    "poistaKayttaja": true,
+    "debugKaytossa": true,
+    "tietokanta": "tietokonetietokanta",
+    "taulut": [
+        {
+            "taulunNimi": "tietokone",
+            "sarakkeet": [
+                "tunniste integer primary key not null",
+                "nimi varchar(25) not null",
+                "tyyppi varchar(18) not null",
+                "suoritin varchar(12) not null",
+                "lukumaara integer not null"
+
+            ],
+            "tiedot": [
+                [
+                    1,
+                    "Asus",
+                    "Pöytäkone",
+                    "dg335",
+                    30
+                ],
+                [
+                    2,
+                    "Acer",
+                    "Läppäri",
+                    "twy35",
+                   234
+                ],
+                [
+                    3,
+                    "Do",
+                    "Pöytäkone",
+                    "rdgrtu334",
+                    26
+                ]
+            ]
+        }
+    ]
+}
