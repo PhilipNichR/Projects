@@ -1,2 +1,2 @@
 # Projects
-Js sivustoja
+Tietokoneiden haku, lisääminen, tietokoneiden tietojen muuttaminen ja poistaminen
